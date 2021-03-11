@@ -1,0 +1,107 @@
+
+
+html,body{
+	width: 100%;
+	height: 100%;
+	/*border:1px solid black;*/
+}
+
+#log_in{
+	width: 100%;
+	height: 100%;
+	/*background-color: #FFFFCC;*/
+	/*border:1px solid black;*/
+}
+.log_in_top{
+	/*border:1px solid red;*/
+	width: 100%;
+	height: 15%;
+	position: relative;
+}
+.log_in_img{
+	width:50%;
+	height: 75%;
+	float: left;
+	/*border: 1px solid blue;*/
+}
+#log_in_right{
+	/*border:1px solid red;*/
+	width: 50%;
+	height: 75%;
+	position: relative;
+	/*margin-top:50%;*/
+	margin-left: 50%;
+}
+#log_in_sign{
+	/*border:1px solid red;*/
+	width: 100%;
+	height: 10%;
+	position: relative;
+	text-align:center;
+	/*margin-top:50%;*/
+
+}
+.log_in_top .log_in_img_1 img{
+	width:100%;
+	height:100%;
+	/*margin-top:100px;*/
+}
+.log_in_img .log_in_img_2 img{
+	width:100%;
+	height:100%;
+	/*margin-left: 800px;*/
+}
+.log_in_img_1{
+	width:350px;
+	height: 100%;
+	/*border:1px solid black;*/
+	margin-left:5%;
+	
+}
+.log_in_img_2{
+	width:500px;
+	height:500px;
+	/*border:1px solid black;*/
+	margin-left: 34%;
+}
+
+.log_in_textbox{
+	text-align:center;
+	border: 8px solid #eeeeee;
+    background-color: white;
+	position: absolute;
+	top:44%;
+	transform: translate(0,-35%);
+	line-height:50px
+}
+#username,#password{
+	width: 251px;
+    height: 32px;
+    border: 1px solid #a6a6a6;
+    /*border-radius: 15px;*/
+    padding-left: 10px;
+}
+.log_in_td_top{
+	color: #a6a6a6;
+    font-size: 25px;
+    width: 110px;
+   /* text-align:center;*/
+}
+.log_in_td_left{
+	width: 50px;
+    height: 45px;
+}
+.log_in_td_right{
+	padding-left: 0px;
+}
+
+#log_in_btn_sub{
+    width: 110px;
+    height: 45px;
+    background-color: #FFD026;
+    border: #FFD026 solid 1px;
+    border-radius: 15px ;
+}
+#log_in_reg p a{
+	color:red;
+}

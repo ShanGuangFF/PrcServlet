@@ -1,0 +1,345 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	/*border:1px solid black;*/
+}
+/*导航栏*/
+.nav{
+	width: 100%;
+	height: 10%;
+	/*border:1px solid red;*/
+}
+/*影片介绍*/
+.banner{
+	width:100%;
+	height: 60%;
+	overflow: hidden;
+	position: relative;
+	/*border:1px solid blue;*/
+}
+.banner .wrapper{
+	position: absolute;
+	width:100%;
+	height: 90%;
+	/*border:1px solid black;*/
+	background-color:rgb(57,47,89);
+}
+.banner .wrapper .photo{
+	float: left;
+	position: relative;
+	width: 20%;
+	height: 100%;
+	/*border:2px solid white;*/
+	/*background-color: pink;*/
+	margin-left: 10%;
+}
+.banner .wrapper .photo img{
+	margin-top:60px;
+	margin-left: 6px;
+	width:270px;
+	height: 370px;
+	border:3px solid white;
+}
+.banner .wrapper .right-inf{
+	width: 40%;
+	height: 95%;
+	margin-left: 30%;
+	margin-top: 60px;
+	/*background-color: blue;*/
+	/*border:1px solid #ddd;*/
+}
+.banner .wrapper .right-inf .movie-name{
+	width: 60%;
+	height: 30%;
+	/*border:1px solid #f40;*/
+}
+.banner .wrapper .right-inf .movie-name h3{
+	font-size: 26px;
+	color:white;
+}
+.banner .wrapper .right-inf .movie-name span,
+.banner .wrapper .right-inf .movie-name .data{
+	font-size: 14px;
+	color:white;
+}
+.banner .wrapper .right-inf .more{
+	float: left;
+	width: 50%;
+	height: 30%;
+	/*border:1px solid #999;*/
+	margin-top:70px;
+}
+.banner .wrapper .right-inf .more .one div,
+.banner .wrapper .right-inf .more .two div{
+	width:45%;
+	height: 35%;
+	background-color: #756189;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.banner .wrapper .right-inf .more .one div{
+	float: left;
+}
+.banner .wrapper .right-inf .more .two div{
+	margin-left: 50%;
+}
+.banner .wrapper .right-inf .more .three div{
+	width:93%;
+	height: 35%;
+	background-color: #f40;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+.banner .wrapper .right-inf .more .one div img,
+.banner .wrapper .right-inf .more .two div img{
+	width: 30px;
+	height: 28px;
+	margin-top: 4%;
+	float: left;
+	margin-left: 18%;
+}
+.banner .wrapper .right-inf .more .one div p,
+.banner .wrapper .right-inf .more .two div p,
+.banner .wrapper .right-inf .more .three div p{
+	
+	display: inline-block;
+	font-size: 18px;
+	color:white;
+	margin-top: 5%;
+}
+.banner .wrapper .right-inf .more .three div p{
+	margin-left: 25%;
+	margin-top:2%;
+
+}
+.banner .wrapper .right-inf .score{
+	margin-left:60%;
+	width: 30%;
+	height: 50%;
+	/*border:1px solid #777;*/
+	margin-top:10%;
+}
+.banner .wrapper .right-inf .score .movie-index p{
+	font-size: 12px;
+	color:white;
+}
+.banner .wrapper .right-inf .score .movie-index h3{
+	margin-top:2%;
+	font-size: 30px;
+	color:#ffc600;
+}
+.banner .wrapper .right-inf .score .movie-index .sty h3{
+	color:white;
+}
+
+/*.banner .wrapper .right-inf .movie-name .data{
+	font-size: 14px;
+	color:white;
+}*/
+/*场次信息*/
+.show{
+	width:100%;
+	height: 60%;
+	/*border:1px solid red;*/
+	margin-top:2%;
+}
+.show .movie-info{
+	width: 80%;
+	height: 20%;
+	border-bottom:1px solid #e5e5e5;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.show .movie-info .movie-name{
+	width:50%;
+	height: 40%;
+	/*border:1px solid black;*/
+	margin-bottom:1%; 
+}
+.show .movie-info .movie-name h3{
+	float: left;
+	width: 50%;
+	height: 100%;
+	font-size: 26px;
+	font-weight: 400;
+
+}
+.show .movie-info .movie-name p{
+	margin-left:40%; 
+	font-size: 24px;
+	color:#faaf00;
+}
+.show .movie-info .movie-des{
+	width:50%;
+	height: 30%;
+	/*border:1px solid black;*/
+}
+.show .movie-info .movie-des .key{
+	color:#999;
+	font-size: 14px;
+}
+.show .movie-info .movie-des .value{
+	color:#151515;
+	font-size: 14px;
+}
+.show .movie-info .movie-des .left{
+    float: left;
+    width: 30%;
+    height: 100%;
+}    
+.show .movie-info .movie-des .right{        
+    width: 50%;
+    height: 100%;
+    margin-left:30%;
+}
+.show .movie-info .movie-des .left1{
+    float: left;
+    width: 30%;
+    height: 100%;
+}    
+.show .movie-info .movie-des .right1{        
+    width: 50%;
+    height: 100%;
+    margin-left:50%;
+}
+.show .movie-date{
+	width: 80%;
+	height: 20%;
+	/*border:1px solid #f40;*/
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top:1%;
+}
+.show .movie-date .left{
+    float: left;
+    width: 10%;
+    height: 100%;
+}    
+.show .movie-date .right{        
+    width: 50%;
+    height: 100%;
+    margin-left:10%;
+}
+.show .movie-date .left1{
+    float: left;
+    width: 20%;
+    height: 100%;
+}    
+.show .movie-date .right1{        
+    width: 50%;
+    height: 100%;
+    margin-left:20%;
+}
+.show .movie-date .key{
+	/*width: 70px;
+	height:25px;
+	text-align: center;
+	line-height: 22px;
+	/*background-color: #f40;*/
+	/*border-radius: 100px;*/*/
+	width: 30%;
+	height: 10%;
+	color:#999;
+	margin-left: 2%;
+	font-size: 18px;
+}
+.show .movie-date .key:hover{
+	width: 120px;
+	height:30px;
+	text-align: center;
+	line-height: 22px;
+	background-color: #f40;
+	border-radius: 100px;
+	cursor: pointer;
+}
+.show .more{
+	width: 80%;
+	height: 60%;
+	/*border:1px solid #f40;*/
+	margin-left: 10%;
+	/*background-color: #f7f7f7;*/
+	margin-top:-3%;
+}
+.show .more .plist .one,
+.show .more .plist .three{
+	width:100%;
+	height: 70px;
+	/*border:1px solid black;*/
+	background-color: #f7f7f7;
+
+}
+.show .more .plist .two,
+.show .more .plist .three{
+	width:100%;
+	height: 70px;
+	/*border:1px solid black;*/
+}
+.show .more .plist .one li{
+	float: left;
+	margin-left: 12%;
+	color:#333;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 2%;
+}
+.show .more .plist .two li,
+.show .more .plist .three li{
+	float: left;
+	margin-left: 160px;
+	font-size: 14px;
+	color:#333;
+	margin-top: 2%;
+}
+.show .more .plist .one .o{
+	margin-left: 0%;
+}
+.show .more .plist .two .o,
+.show .more .plist .three .o{
+	margin-left: 120px;
+}
+.show .more .plist .two .oo,
+.show .more .plist .three .oo{
+	width: 70px;
+	height:25px;
+	text-align: center;
+	line-height: 22px;
+	background-color: #f40;
+	border-radius: 100px;
+	margin-left: 190px;
+}
+.show .more .plist .two .oo a,
+.show .more .plist .three .oo a{
+	color:#fff;
+}
+.show .more .plist .two .ooo,
+.show .more .plist .three .ooo{
+	color:#f03d37;
+	font-weight: 700;
+}
+.show .more .plist .two .o .sty,
+.show .more .plist .three .o .sty{
+	font-size: 18px;
+	font-weight: 700;
+	color:#333;	
+}
+.show .more .plist .two .o .sty1,
+.show .more .plist .three .o .sty1{
+	font-size: 12px;
+	/*font-weight: 700;*/
+	color:#999;	
+}
+/*footer*/
+.footer{
+	width:100%;
+	height: 10%;
+	margin-top: 10%;
+	background-color: #262426;
+	/*border:1px solid blue;*/
+}

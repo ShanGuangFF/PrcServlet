@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+           function login() {
+               $.post("loginServlet",{"username":"123"},function (data) {
+                   if(data.flag){
+                       $("p").html("你好");
+                   }
+                },"text");
+           }
+    </script>
+</head>
+
+
+<body>
+        <input id="username" type="text" />
+        <input id="password" type="password"/>
+        <button id="btn" onclick="login()">登陆</button>
+        <p></p>
+</body>
+</html>
