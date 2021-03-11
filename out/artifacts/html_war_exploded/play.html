@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>Bootstrap 101 Template</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.js"></script>
+
+	<link href="css/play.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display  影院品牌logo-->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling 收集导航链接，表单和其他内容以进行切换-->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">影片<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">购票</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">影院特色<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">不知道有啥特色</a></li>
+						<li><a href="#">不知道有啥特色</a></li>
+						<li><a href="#">不知道有啥特色</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">不知道有啥特色</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">不知道有啥特色</a></li>
+					</ul>
+				</li>
+			</ul>
+			<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="复仇者联盟4">
+				</div>
+				<button type="submit" class="btn btn-default">搜索</button>
+			</form>
+			<ul class="nav navbar-nav navbar-right">
+				<li id="log_in"><a href="login.html">登陆</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">我的钱包</a></li>
+						<li><a href="#">查看影票</a></li>
+						<li><a href="#">充值中心</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">客服服务</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+	<div class="banner">
+		<div class="wrapper">
+			<div class="photo">
+				<img src="img/1.png" alt="">
+			</div>
+			<div class="right-inf">
+				<div class="movie-name">
+					<h3>复仇者联盟4：终局之战</h3>
+					<span>Avengers:Endgame</span>
+					<ul>
+						<li class="data">动作，冒险，奇幻</li>
+						<li class="data">美国/181分钟</li>
+						<li class="data">2019-4-24大陆上映</li>
+					</ul>
+				</div>
+				<div class="more">
+					<a href="#" class="one">
+						<div>
+							<img src="img/heart.png" alt="">
+							<p>想看</p>
+						</div>
+					</a>
+					<a href="#" class="two">
+						<div>
+							<img src="img/star.png" alt="">
+							<p>评分</p>
+						</div>
+					</a>
+					<a href="#" class="three">
+						<div>
+							<p>查看更多电影详情</p>
+						</div>
+					</a>
+				</div>
+				<div class="score">
+					<div class="movie-index">
+						<p>用户评分</p>
+						<div>
+							<h3>9.1</h3>
+						</div>
+					</div>
+					<div class="movie-index">
+						<p>累计票房</p>
+						<div class="sty">
+							<h3>38.76亿</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="show">
+		<!-- <div class="movie"> -->
+			<div class="movie-info">
+				<div class="movie-name">
+					<h3>复仇者联盟4：终局之战</h3>
+					<p>9.1</p>
+				</div>
+				<div class="movie-des">
+					<div class="left">
+						<span class="key">时长：</span>
+						<span class="value">181分钟</span>
+					</div>
+					<div class="right">
+						<div class="left1">
+								<span class="key">类型：</span>
+								<span class="value">动作</span>
+						</div>
+						<div class="right1">
+							<span class="key">主演:</span>
+							<span class="value">小罗伯特.唐尼</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="movie-date">
+				<div class="left">
+						<span class="key">观影时间：</span>
+				</div>
+				<div class="right">
+						<div class="left1">
+							<span class="key">今天5月6</span>
+								
+						</div>
+						<div class="right1">
+							<span class="key">明天5月7</span>
+						</div>
+				</div>
+			</div>
+			<div class="more">
+				<div class="plist">
+					<ul class="one">
+						<li class="o">放映时间</li>
+						<li>语言版本</li>
+						<li>放映厅</li>
+						<li>售价（元）</li>
+						<li>选座购票</li>
+					</ul>
+					<ul class="two">
+						<li class="o">
+							<p class="sty">09:20</p>
+							<p class="sty1">12:21散场</p>
+						</li>
+						<li>英语3D</li>
+						<li>VIP厅</li>
+						<li class="ooo">￥59</li>
+						<li class="oo">
+							<a href="#">选座购票</a></li>
+					</ul>
+					<ul class="three">
+						<li class="o">
+							<p class="sty">09:20</p>
+							<p class="sty1">12:21散场</p>
+						</li>
+						<li>英语3D</li>
+						<li>VIP厅</li>
+						<li class="ooo">￥59</li>
+						<li class="oo">
+							<a href="#">选座购票</a></li>
+					</ul>
+					<ul class="two">
+						<li class="o">
+							<p class="sty">09:20</p>
+							<p class="sty1">12:21散场</p>
+						</li>
+						<li>英语3D</li>
+						<li>VIP厅</li>
+						<li class="ooo">￥59</li>
+						<li class="oo">
+							<a href="#">选座购票</a></li>
+					</ul>
+					<ul class="three">
+						<li class="o">
+							<p class="sty">09:20</p>
+							<p class="sty1">12:21散场</p>
+						</li>
+						<li>英语3D</li>
+						<li>VIP厅</li>
+						<li class="ooo">￥59</li>
+						<li class="oo">
+							<a href="#">选座购票</a></li>
+					</ul>
+					<ul class="two">
+						<li class="o">
+							<p class="sty">09:20</p>
+							<p class="sty1">12:21散场</p>
+						</li>
+						<li>英语3D</li>
+						<li>VIP厅</li>
+						<li class="ooo">￥59</li>
+						<li class="oo">
+							<a href="#">选座购票</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	<div class="footer">
+		
+	</div>
+	
+</body>
+	
+</html>
